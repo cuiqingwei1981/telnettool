@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<buttonItemCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <buttonItems>
+    <buttonItem>
+      <buttonID>1</buttonID>
+      <buttonTitle>搜索设备</buttonTitle>
+      <isCopyOrSend>Send</isCopyOrSend>
+      <isHexOrAscii>Hex</isHexOrAscii>
+      <txString>FE 00 01 00 01</txString>
+    </buttonItem>
+    <buttonItem>
+      <buttonID>2</buttonID>
+      <buttonTitle>设备复位</buttonTitle>
+      <isCopyOrSend>send</isCopyOrSend>
+      <isHexOrAscii>Hex</isHexOrAscii>
+      <txString>FE 00 01 FF FE</txString>
+    </buttonItem>
+    <buttonItem>
+      <buttonID>3</buttonID>
+      <buttonTitle>信道评估</buttonTitle>
+      <isCopyOrSend>send</isCopyOrSend>
+      <isHexOrAscii>Hex</isHexOrAscii>
+      <txString>FE 00 01 02 03</txString>
+    </buttonItem>
+    <buttonItem>
+      <buttonID>4</buttonID>
+      <buttonTitle>网络休眠</buttonTitle>
+      <isCopyOrSend>Send</isCopyOrSend>
+      <isHexOrAscii>Hex</isHexOrAscii>
+      <txString>FE 00 01 06 07</txString>
+    </buttonItem>
+    <buttonItem>
+      <buttonID>5</buttonID>
+      <buttonTitle>自定义</buttonTitle>
+      <isCopyOrSend>Send</isCopyOrSend>
+      <isHexOrAscii>Hex</isHexOrAscii>
+      <txString>FE 03 01 04 0F 00 01 08</txString>
+    </buttonItem>
+    <buttonItem>
+      <buttonID>6</buttonID>
+      <buttonTitle>自定义</buttonTitle>
+      <isCopyOrSend>Send</isCopyOrSend>
+      <isHexOrAscii>Hex</isHexOrAscii>
+      <txString>FE 03 04 01 00 01 00 07</txString>
+    </buttonItem>
+    <buttonItem>
+      <buttonID>7</buttonID>
+      <buttonTitle>自定义</buttonTitle>
+      <isCopyOrSend>Send</isCopyOrSend>
+      <isHexOrAscii>Ascii</isHexOrAscii>
+      <txString>hello world!</txString>
+    </buttonItem>
+    <buttonItem>
+      <buttonID>8</buttonID>
+      <buttonTitle>自定义</buttonTitle>
+      <isCopyOrSend>Send</isCopyOrSend>
+      <isHexOrAscii>Ascii</isHexOrAscii>
+      <txString>i love you!</txString>
+    </buttonItem>
+  </buttonItems>
+</buttonItemCollection>
